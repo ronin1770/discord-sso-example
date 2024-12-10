@@ -10,9 +10,17 @@ In order to better understand this code base / example, please checkout our blog
 - Domain name
 - SSL certificate
 
+## Set Environment Variables ##
+
+On Linux you can use the following set of commands:
+
+```
+export CLIENT_ID=<DISCORD Application Client ID>
+export CLIENT_SECRET=<DISCORD Application Client Secret>
+export REDIRECT_URI=<DISCORD Application Redirect URL>
+export DISCORD_API_BASE_URL=https://discord.com/api
+```
 
 ## Executing the Code ##
 
 ```python3 app.py ```
-
-
